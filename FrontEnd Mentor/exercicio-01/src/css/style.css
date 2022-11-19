@@ -1,0 +1,170 @@
+body{
+    background-color: var( --background-color);
+    
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.cartao{
+    background-color: var( --cartao-color);
+    height: 450px;
+    width: 800px; 
+    border-radius: 10px;
+    margin: 0 1rem;
+    display: flex;
+    flex-flow: column row;
+    justify-content: center;
+ 
+       
+}
+
+
+.imagem-container{
+    width: 50%;
+}
+
+.caixa-esquerda img{
+    height: 450px;
+    width: 390px;
+    object-fit: cover;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.caixa-esquerda{
+    width: 370px;
+    height: 370px;
+
+}
+
+.caixa-direita{
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-right: 50px;
+    margin: 0 auto;
+    text-align: justify;        
+    
+}
+
+.caixa-direita  span{
+    color: var(--color-text-02);
+    font-family:  'Montserrat', sans-serif;
+    
+}
+
+
+.ultimo-texto{
+    color: var(--color-text-02);
+    font-family:  'Montserrat', sans-serif;
+    text-align: justify;
+    
+}
+
+
+
+h1{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 34px;
+    
+    
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; 
+    position: relative ;
+    bottom: 110px;
+    right: 300px; 
+      
+      
+    
+}
+
+
+.menu span{
+    color: var(--color-text-02);
+    font-family:  'Montserrat', sans-serif;
+    position: absolute;
+   
+}
+
+.menu .valor-01{
+    font-size: 40px;
+    color: var( --text-color);
+    font-family: 'Fraunces', serif;
+    position: absolute;
+    
+} 
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    right: 60px;
+    top: 20px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    
+}
+
+
+button{
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: var(--text-color);
+    color: var(--cartao-color);
+   
+}
+
+footer{
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer a {
+    color: blue;
+
+}
+
+
+/* @media (min-witdh:628px){
+
+
+    img{
+        max-width: 450px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .cartao{
+        display: block;
+    }
+
+    .cartao .caixa-direita span h1 .ultimo-texto{
+        padding-bottom: 23px;
+    }
+
+}  */
